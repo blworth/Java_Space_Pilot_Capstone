@@ -10,12 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="22.07SDE05-SpacePilot" target="11" />
+      <module name="Java_Space_Pilot_Capstone" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="22.07SDE05-SpacePilot" options="" />
-    </option>
   </component>
 </project>

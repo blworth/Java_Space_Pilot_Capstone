@@ -20,7 +20,7 @@ public final class Music {
     if (fxMute) {
 
       try {
-        audio = com.spacepilot.model.Music.class.getResource("/" + soundFile);
+        audio = Music.class.getResource("/" + soundFile);
 
         AudioInputStream audioInput = AudioSystem.getAudioInputStream(audio);
         clip2 = AudioSystem.getClip();
@@ -34,7 +34,7 @@ public final class Music {
   }
   public static void playAudioMusic(String soundFile) {
     try {
-      audio = com.spacepilot.model.Music.class.getResource("/" + soundFile);
+      audio = Music.class.getResource("/" + soundFile);
       AudioInputStream audioInput = AudioSystem.getAudioInputStream(audio);
       clip = AudioSystem.getClip();
       clip.open(audioInput);
