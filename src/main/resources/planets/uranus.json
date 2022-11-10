@@ -1,0 +1,17 @@
+{
+  "name": "Uranus",
+  "event": "ice storm",
+  "gravity": 9,
+  "radius": 1600,
+  "mass": 9,
+  "names": [
+    "Bob",
+    "Michelle",
+    "Chad",
+    "Aria"
+  ],
+  "arrayOfAstronautsOnPlanet": [],
+  "preReq": "Cold Shield",
+  "damageCondition": "Extreme Cold",
+  "item": null
+}
